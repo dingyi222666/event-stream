@@ -1,0 +1,55 @@
+{
+    "name": "@dingyi222666/event-stream",
+    "description": "event stream support for @cordisjs/plugin-http",
+    "version": "0.0.1",
+    "type": "module",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "exports": {
+        ".": {
+            "require": "./lib/index.cjs",
+            "import": "./lib/index.js",
+            "types": "./lib/index.d.ts"
+        },
+        "./package.json": "./package.json"
+    },
+    "files": [
+        "lib",
+        "src"
+    ],
+    "author": "dingyi222666 <dingyi222666@foxmail.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dingyi222666/event-stream.git",
+        "directory": "."
+    },
+    "bugs": {
+        "url": "https://github.com/dingyi222666/event-stream/issues"
+    },
+    "homepage": "https://github.com/dingyi222666/event-stream",
+    "keywords": [
+        "http",
+        "client",
+        "undici",
+        "fetch",
+        "axios",
+        "http",
+        "https",
+        "proxy",
+        "agent",
+        "request",
+        "cordis",
+        "plugin"
+    ],
+    "devDependencies": {
+        "cordis": "^3.18.0"
+    },
+    "peerDependencies": {
+        "@cordisjs/plugin-http": "^0.6.2",
+        "cordis": "^3.18.0"
+    },
+    "dependencies": {
+        "fetch-event-stream": "^0.1.5"
+    }
+}
