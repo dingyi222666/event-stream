@@ -14,10 +14,10 @@ npm install @dingyi222666/event-stream
 
 ```ts
 
-import { apply as applyEventStream } from '@dingyi222666/event-stream'
+import * as eventStream from '@dingyi222666/event-stream'
 
 async function apply(ctx: Context) {
-    applyEventStream(ctx)
+    ctx.plugin(eventStream)
 
     const resp = await ctx.http.get('/event-stream', {
         responseType: 'event-stream',
