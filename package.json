@@ -43,11 +43,11 @@
         "plugin"
     ],
     "devDependencies": {
-        "cordis": "^3.18.0"
+        "cordis": "^3.18.1"
     },
     "peerDependencies": {
         "@cordisjs/plugin-http": "^0.6.2",
-        "cordis": "^3.18.0"
+        "cordis": "^3.18.1"
     },
     "dependencies": {
         "fetch-event-stream": "^0.1.5"
